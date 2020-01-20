@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header styling */
+
+.header-container {
+    display: flex;
+    justify-content: end;
+    padding: 1rem 2rem 0 1rem;
+  }
+  .signmein{
+      margin-left: 1.5rem;
+      background-color: #0077c5;
+      border: 1px solid grey;
+      border-radius: 4px;
+      padding:  10px 20px;
+      color: white;
+  }
+  .sigin-column{
+      font-size: 12px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #505050;
+      font-weight: 400;
+      margin-top: 8px;
+  }
+  .primary-link{
+      text-decoration: none;
+  }
+
+  /* styling the form elements here */
+
+  .form-container{
+      display: flex;
+      max-width: 600px;
+      margin: auto;
+  }
+
+  /* styling the logos */
+  .main-logo{
+      width: 200px;
+  }
+  .logo-ul{
+      width: 100%;
+      display: flex;
+  }
