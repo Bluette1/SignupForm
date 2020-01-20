@@ -1,4 +1,4 @@
-https://github.com/kelibst/Embeddedimgproject/pull/20https://github.com/kelibst/Embeddedimgproject/pull/20<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,14 +9,43 @@ https://github.com/kelibst/Embeddedimgproject/pull/20https://github.com/kelibst/
     <script src="https://kit.fontawesome.com/5e0cee5c01.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- header of the page goes here -->
     <header>
         <div class="header-container">
             <span class="line-top">Already have an Intuit account?</span>
             <span class="line-bottom">I forgot my User ID or Password</span>
-            <div class="signin-container">
-                <input type="text" class="btn">
-            </div>     
+            <button>
+                <i class="fas fa-lock"></i>
+                Sign in
+            </button>   
         </div>
     </header>
+    <main>
+        <section class="form-container">
+            <!-- logo item are here -->
+            <div class="logo-container">
+
+            </div>
+            <!-- form item are here -->
+            <form method="post">
+                <h2 class="form-header">Create an Intuit account</h2>
+                <h3 class="form-sub-header">One account for everything intuit. including Mint</h3>
+                <a href="#" class="primary-link">Learn more</a>
+                <fieldset>
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-input" placeholder="Enter your email" required>
+                </fieldset>
+                <fieldset>
+                    <label for="phone" class="form-label">Phone (recommended)</label>
+                    <input type="text" name="phone" class="form-input" placeholder="10 Digit Phone number">
+                    <p class="info">Standard call messages or data rates may apply.</p>
+                </fieldset>
+                <fieldset>
+                    <label for="Password" class="form-label">Password</label>
+                    <input type="password" name="password" class="form-input" placeholder="No special Chanacter allowed" required>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
