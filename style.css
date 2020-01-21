@@ -39,9 +39,15 @@ body{
 
   /* styling the logos */
   .main-logo{
-      width: 200px;
+      width: 100px;
+  }
+  li{
+    list-style: none;
   }
   .logo-ul{
       width: 100%;
       display: flex;
+  }
+  .logo-link-img{
+      max-width: 30px;
   }
