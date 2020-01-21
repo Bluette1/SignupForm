@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: #ECEEF1;
+    box-sizing: border-box;
 }
 
 /* header styling */
@@ -88,7 +89,7 @@ body{
     background-image: url(https://apechecks.com/wp-content/uploads/2018/04/qb_thumb-300x300.png);  
   }
   .third{
-    background-image: url(https://apechecks.com/wp-content/uploads/2018/04/qb_thumb-300x300.png);
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg);
   }
 
   /* styling the form element */
@@ -98,8 +99,8 @@ body{
     width: 60%;
     margin: auto;
     background: white;
-    box-shadow: 1px solid black;
-    padding: 1rem;
+    border: 1px solid #c7c7c7;
+    padding: 30px;
   }
   .form-header {
 	font-size: 20px;
