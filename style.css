@@ -99,7 +99,7 @@ body{
     margin: auto;
     background: white;
     box-shadow: 1px solid black;
-    padding: 1rem;
+    padding: 30px;
   }
   .form-header {
 	font-size: 20px;
@@ -124,8 +124,9 @@ fieldset {
     border: none;
   }
   .form-input {
-    width: 100%;
+    width: 98%;
     margin: 15px 0;
+    padding: 10px;
   }
   .form-label {
     font-size: 14px;
@@ -136,4 +137,8 @@ fieldset {
     position: relative;
     top: -17px;
     color: #1e1d1d;
+  }
+
+  .create-login {
+    margin-left: 12px;
   }
