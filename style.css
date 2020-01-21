@@ -172,6 +172,7 @@ fieldset {
     margin: 20px auto;
    
 }
+
 .footer-legal {
 	width: 80%;
 	margin: auto;
@@ -195,3 +196,23 @@ fieldset {
     width: 300px;
     margin: auto;
 }
+
+/* /* .consent-widget{
+    font-family: inherit;
+    font-size: 14px;
+    background-color: #6B6C72;
+    border-radius: 3px;
+    z-index: 100;
+    cursor: pointer;
+} */
+/* .privacy-settings { 
+    margin-left: 1.5rem;
+    background-color: #0077c5;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding:  10px 20px;
+    color: white;
+    margin-right: 20px;
+    position: fixed;  */ 
+
+/* } */
