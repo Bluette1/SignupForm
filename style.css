@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #ECEEF1;
 }
 
 /* header styling */
@@ -32,33 +33,47 @@ body{
   /* styling the form elements here */
 
   .form-container{
-      display: flex;
+      /* display: flex; */
+      
       max-width: 600px;
       margin: auto;
   }
 
   /* styling the logos */
   .main-logo{
-      width: 100px;
+      width: 118px;
+      height: 35px;
+      margin: auto;
   }
   li{
     list-style: none;
     display: flex;
   }
   .logo-ul{
-      width: 100%;
+      width: 80%;
       display: flex;
+      /* margin: auto; */
+      justify-content: center;
   }
   .logo-link-img{
       max-width: 30px;
   }
   .logo-img-container{
-      width: 20px;
-      height: 20px;
+      width: 25px;
+      height: 25px;
       border-radius: 15px;
       margin-right: 10px;
+      margin-left: 10px;
       background-size: cover;
   }
+
+  .logo-container {
+    display: flex;
+    margin: 10% auto;
+    width: 80%;
+    flex-direction: column;
+    /* justify-content: center; */
+}
   .first{
     background-image: url(https://www.fintechfutures.com/files/2018/08/Mint-1.jpg);
   }
