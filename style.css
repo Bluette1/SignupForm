@@ -29,6 +29,10 @@ body{
   .primary-link{
       text-decoration: none;
   }
+  .secondary-link{
+      text-decoration: none;
+      color: grey;
+  }
 
   /* styling the form elements here */
 
@@ -69,10 +73,13 @@ body{
 
   .logo-container {
     display: flex;
-    margin: 10% auto;
+    margin: 10px auto;
     width: 80%;
     flex-direction: column;
-    /* justify-content: center; */
+}
+.img-span{
+    position: relative;
+    top: 4px;
 }
   .first{
     background-image: url(https://www.fintechfutures.com/files/2018/08/Mint-1.jpg);
@@ -82,4 +89,51 @@ body{
   }
   .third{
     background-image: url(https://apechecks.com/wp-content/uploads/2018/04/qb_thumb-300x300.png);
+  }
+
+  /* styling the form element */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    background: white;
+    box-shadow: 1px solid black;
+    padding: 1rem;
+  }
+  .form-header {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 400;
+}
+.form-sub-header {
+	font-size: 14px;
+	font-weight: 40;
+	text-align: center;
+    color: grey;
+    margin: 2px;
+}
+.form-link{
+    font-size: 13px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+fieldset {
+    border: none;
+  }
+  .form-input {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .form-label {
+    font-size: 14px;
+    color: #1e1d1d;
+  }
+  .info {
+    font-size: 12px;
+    position: relative;
+    top: -17px;
+    color: #1e1d1d;
   }
