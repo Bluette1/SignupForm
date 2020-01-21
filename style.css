@@ -43,6 +43,7 @@ body{
   }
   li{
     list-style: none;
+    display: flex;
   }
   .logo-ul{
       width: 100%;
@@ -50,4 +51,20 @@ body{
   }
   .logo-link-img{
       max-width: 30px;
+  }
+  .logo-img-container{
+      width: 20px;
+      height: 20px;
+      border-radius: 15px;
+      margin-right: 10px;
+      background-size: cover;
+  }
+  .first{
+    background-image: url(https://www.fintechfutures.com/files/2018/08/Mint-1.jpg);
+  }
+  .second{
+    background-image: url(https://apechecks.com/wp-content/uploads/2018/04/qb_thumb-300x300.png);  
+  }
+  .third{
+    background-image: url(https://apechecks.com/wp-content/uploads/2018/04/qb_thumb-300x300.png);
   }
