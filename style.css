@@ -44,7 +44,7 @@ body{
       color: white;
       cursor: pointer;
       margin-left: 1.5rem;
-      padding:  10px 20px;
+      padding:  10px 18px;
   }
   .sigin-column{
       color: #505050;
@@ -138,9 +138,9 @@ body{
 }
 .form-sub-header {
   color: grey;
-  margin: 2px;
-	font-size: 14px;
+  font-size: 14px;
 	font-weight: 400;
+  margin: 2px;
 	text-align: center;
 }
 .form-link{
@@ -152,11 +152,16 @@ body{
 
 fieldset {
     border: none;
+    display: flex;
+    flex-direction: column;
   }
   .form-input {
     margin: 15px 0;
-    max-width: 92%;
+    
     padding: 10px;
+  }
+  input.form-input{
+    width: 92%;
   }
   .form-label {
     color: #1e1d1d;
@@ -171,6 +176,7 @@ fieldset {
 
   .create-login {
     margin-left: 10px;
+    max-width: 95%;
   }
 
   /* styling privacy terms */
