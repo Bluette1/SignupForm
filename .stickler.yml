@@ -1,5 +1,10 @@
 linters:
     csslint: {  }
+    stylelint:
+        config: 'stylelint.config.js'
 files:
     ignore:
-      - 'bower_components/*'
+      - 'public/*'
+      - '*.log'
+      - 'package.json'
+      - 'reset.css'
