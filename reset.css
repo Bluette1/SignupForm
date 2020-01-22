@@ -5,7 +5,8 @@
 
 /* csslint box-sizing: false */
 
-* video {
+
+* {
   border: 0;
   font: 100% inherit;
   margin: 0;
