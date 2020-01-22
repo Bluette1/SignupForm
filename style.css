@@ -1,231 +1,253 @@
-@keyframes moveIn{
-  0%{
+@keyframes moveIn {
+  0% {
     opacity: 0;
-    
   }
-  100%{
+
+  100% {
     opacity: 1;
   }
 }
-@keyframes moveInlogos{
-  0%{
+
+@keyframes moveInlogos {
+  0% {
     opacity: 0;
     position: absolute;
     top: -30px;
   }
-  50%{
-    opacity: .3;
+
+  50% {
+    opacity: 0.3;
     position: relative;
     top: -15px;
   }
 
-  100%{
+  100% {
     opacity: 1;
-   top: 0;
+    top: 0;
   }
 }
-body{
-    padding: 0;
-    margin: 0;
-    background-color: #ECEEF1;
-    box-sizing: border-box;
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eceef1;
+  box-sizing: border-box;
 }
 
 /* header styling */
 
 .header-container {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1rem 2rem 0 1rem;
-  }
-  .signmein{
-      margin-left: 1.5rem;
-      background-color: #0077c5;
-      border: 1px solid grey;
-      border-radius: 4px;
-      padding:  10px 20px;
-      color: white;
-      cursor: pointer;
-  }
-  .sigin-column{
-      font-size: 12px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      color: #505050;
-      font-weight: 400;
-      margin-top: 8px;
-  }
-  .primary-link{
-      text-decoration: none;
-  }
-  .secondary-link{
-      text-decoration: none;
-      color: #505050;
-  }
-
-  /* styling the form elements here */
-
-  .form-container{
-      /* display: flex; */
-      
-      max-width: 600px;
-      margin: auto;
-  }
-
-  /* styling the logos */
-  .main-logo{
-      width: 118px;
-      height: 35px;
-      margin: auto;
-      cursor: pointer;
-      animation: moveIn 733ms ease-in forwards;
-     
-  }
-  li{
-    list-style: none;
-    display: flex;
-    animation: moveInlogos 4s ease-out;
-  }
-  .logo-ul{
-      width: 80%;
-      display: flex;
-      /* margin: auto; */
-      justify-content: center;
-      transition: all 4s;
-
-  }
-  .logo-link-img{
-      max-width: 30px;
-  }
-  .logo-img-container{
-      width: 25px;
-      height: 25px;
-      border-radius: 15px;
-      margin-right: 10px;
-      margin-left: 10px;
-      background-size: cover;
-  }
-
-  .logo-container {
-    display: flex;
-    margin: 10px auto;
-    width: 80%;
-    flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 2rem 0 1rem;
 }
-.img-span{
-    position: relative;
-    top: 4px;
-}
-  .first{
-    background-image: url(https://www.fintechfutures.com/files/2018/08/Mint-1.jpg);
-  }
-  .second{
-    background-image: url(https://apechecks.com/wp-content/uploads/2018/04/qb_thumb-300x300.png);  
-  }
-  .third{
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg);
-  }
 
-  /* styling the form element */
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin: auto;
-    background: white;
-    font-size: 14px;
-    border: 1px solid #c7c7c7;
-    padding: 30px;
-    border-bottom: none;
-  }
-  .form-header {
-	font-size: 20px;
-	text-align: center;
-	font-weight: 400;
+.signmein {
+  margin-left: 1.5rem;
+  background-color: #0077c5;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
 }
+
+.sigin-column {
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #505050;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.primary-link {
+  text-decoration: none;
+}
+
+.secondary-link {
+  text-decoration: none;
+  color: #505050;
+}
+
+/* styling the form elements here */
+
+.form-container {
+  /* display: flex; */
+
+  max-width: 600px;
+  margin: auto;
+}
+
+/* styling the logos */
+.main-logo {
+  width: 118px;
+  height: 35px;
+  margin: auto;
+  cursor: pointer;
+  animation: moveIn 733ms ease-in forwards;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  animation: moveInlogos 4s ease-out;
+}
+
+.logo-ul {
+  width: 80%;
+  display: flex;
+
+  /* margin: auto; */
+  justify-content: center;
+  transition: all 4s;
+}
+
+.logo-link-img {
+  max-width: 30px;
+}
+
+.logo-img-container {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-size: cover;
+}
+
+.logo-container {
+  display: flex;
+  margin: 10px auto;
+  width: 80%;
+  flex-direction: column;
+}
+
+.img-span {
+  position: relative;
+  top: 4px;
+}
+
+.first {
+  background-image: url(https://www.fintechfutures.com/files/2018/08/Mint-1.jpg);
+}
+
+.second {
+  background-image: url(https://apechecks.com/wp-content/uploads/2018/04/qb_thumb-300x300.png);
+}
+
+.third {
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg);
+}
+
+/* styling the form element */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  background: white;
+  font-size: 14px;
+  border: 1px solid #c7c7c7;
+  padding: 30px;
+  border-bottom: none;
+}
+
+.form-header {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
 .form-sub-header {
-	font-size: 14px;
-	font-weight: 40;
-	text-align: center;
-    color: grey;
-    margin: 2px;
-}
-.form-link{
-    font-size: 13px;
-    margin-bottom: 30px;
-    text-align: center;
+  font-size: 14px;
+  font-weight: 40;
+  text-align: center;
+  color: grey;
+  margin: 2px;
 }
 
+.form-link {
+  font-size: 13px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 fieldset {
-    border: none;
-  }
-  .form-input {
-    width: 92%;
-    margin: 15px 0;
-    padding: 10px;
-  }
-  .form-label {
-    font-size: 14px;
-    color: #1e1d1d;
-  }
-  .info {
-    font-size: 12px;
-    position: relative;
-    top: -17px;
-    color: #1e1d1d;
-  }
-
-  .create-login {
-    margin-left: 10px;
-  }
-
-  /* styling privacy terms */
-
-  .privacy-terms {
-    font-size: 12px;
-    color: #757575;
-    text-align: center;
-    font-style: italic;
-    font-weight: 400;
-    width: 90%;
-    margin: 40px auto;
-  }
-  .re-capture-policy {
-    font-size: 10px;
-    width: 70%;
-    font-style: italic;
-    margin:  auto;
-    border: 1px solid #c7c7c7;
-    
+  border: none;
 }
+
+.form-input {
+  width: 92%;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.form-label {
+  font-size: 14px;
+  color: #1e1d1d;
+}
+
+.info {
+  font-size: 12px;
+  position: relative;
+  top: -17px;
+  color: #1e1d1d;
+}
+
+.create-login {
+  margin-left: 10px;
+}
+
+/* styling privacy terms */
+
+.privacy-terms {
+  font-size: 12px;
+  color: #757575;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.re-capture-policy {
+  font-size: 10px;
+  width: 70%;
+  font-style: italic;
+  margin: auto;
+  border: 1px solid #c7c7c7;
+}
+
 .capture-policies {
-    margin: 20px auto;
-    text-align: center;
-   
+  margin: 20px auto;
+  text-align: center;
 }
 
 .footer-legal {
-	color: #505050;
-	font-size: 12px;
-	margin: auto;
-	text-align: center;
-	width: 80%;
+  color: #505050;
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
 }
-.footer-nav-ul{
-    display: flex;
-    margin:  auto;
+
+.footer-nav-ul {
+  display: flex;
+  margin: auto;
 }
-.footer-link{
-    color: #505050;
-    padding-right: 10px;
+
+.footer-link {
+  color: #505050;
+  padding-right: 10px;
 }
-.footer-link:hover{
-    border-bottom: 1px solid #505050;
+
+.footer-link:hover {
+  border-bottom: 1px solid #505050;
 }
 
 .footer-nav {
-    margin: auto;
-    width: 180px;
+  margin: auto;
+  width: 180px;
 }
 
 .privacy-setting {
@@ -234,7 +256,7 @@ fieldset {
   border-radius: 3px;
   padding: 10px 12px;
   position: fixed;
-  background-color: #6B6C72;
+  background-color: #6b6c72;
   cursor: pointer;
   right: 40px;
   bottom: 0;
