@@ -25,10 +25,9 @@
   }
 }
 body{
-    padding: 0;
-    margin: 0;
     background-color: #ECEEF1;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* header styling */
@@ -39,18 +38,18 @@ body{
     padding: 1rem 2rem 0 1rem;
   }
   .signmein{
-      margin-left: 1.5rem;
       background-color: #0077c5;
-      border: 1px solid grey;
       border-radius: 4px;
-      padding:  10px 20px;
+      border: 1px solid grey;
       color: white;
       cursor: pointer;
+      margin-left: 1.5rem;
+      padding:  10px 20px;
   }
   .sigin-column{
-      font-size: 12px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       color: #505050;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 12px;
       font-weight: 400;
       margin-top: 8px;
   }
@@ -58,58 +57,53 @@ body{
       text-decoration: none;
   }
   .secondary-link{
-      text-decoration: none;
       color: #505050;
+      text-decoration: none;
   }
 
   /* styling the form elements here */
 
   .form-container{
-      /* display: flex; */
-      
-      max-width: 600px;
       margin: auto;
+      max-width: 600px;
   }
 
   /* styling the logos */
   .main-logo{
-      width: 118px;
+      animation: moveIn 733ms ease-in forwards;
+      cursor: pointer;
       height: 35px;
       margin: auto;
-      cursor: pointer;
-      animation: moveIn 733ms ease-in forwards;
-     
+      width: 118px;
   }
   li{
-    list-style: none;
-    display: flex;
     animation: moveInlogos 4s ease-out;
+    display: flex;
+    list-style: none;
   }
   .logo-ul{
-      width: 80%;
       display: flex;
-      /* margin: auto; */
       justify-content: center;
       transition: all 4s;
-
+      width: 80%;
   }
   .logo-link-img{
       max-width: 30px;
   }
   .logo-img-container{
-      width: 25px;
-      height: 25px;
-      border-radius: 15px;
-      margin-right: 10px;
-      margin-left: 10px;
       background-size: cover;
+      border-radius: 15px;
+      height: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 25px;
   }
 
   .logo-container {
     display: flex;
+    flex-direction: column;
     margin: 10px auto;
     width: 80%;
-    flex-direction: column;
 }
 .img-span{
     position: relative;
@@ -127,24 +121,24 @@ body{
 
   /* styling the form element */
   form {
+    background: white;
+    border-bottom: none;
+    border: 1px solid #c7c7c7;
     display: flex;
     flex-direction: column;
-    width: 60%;
-    margin: auto;
-    background: white;
     font-size: 14px;
-    border: 1px solid #c7c7c7;
+    margin: auto;
     padding: 30px;
-    border-bottom: none;
+    max-width: 60%;
   }
   .form-header {
 	font-size: 20px;
-	text-align: center;
 	font-weight: 400;
+	text-align: center;
 }
 .form-sub-header {
 	font-size: 14px;
-	font-weight: 40;
+	font-weight: 400;
 	text-align: center;
     color: grey;
     margin: 2px;
@@ -160,19 +154,19 @@ fieldset {
     border: none;
   }
   .form-input {
-    width: 92%;
     margin: 15px 0;
     padding: 10px;
+    max-width: 92%;
   }
   .form-label {
-    font-size: 14px;
     color: #1e1d1d;
+    font-size: 14px;
   }
   .info {
+    color: #1e1d1d;
     font-size: 12px;
     position: relative;
     top: -17px;
-    color: #1e1d1d;
   }
 
   .create-login {
@@ -182,26 +176,25 @@ fieldset {
   /* styling privacy terms */
 
   .privacy-terms {
-    font-size: 12px;
     color: #757575;
-    text-align: center;
+    font-size: 12px;
     font-style: italic;
     font-weight: 400;
-    width: 90%;
     margin: 40px auto;
+    text-align: center;
+    width: 90%;
   }
   .re-capture-policy {
+    border: 1px solid #c7c7c7;
     font-size: 10px;
-    width: 70%;
     font-style: italic;
     margin:  auto;
-    border: 1px solid #c7c7c7;
+    max-width: 70%;
     
 }
 .capture-policies {
     margin: 20px auto;
     text-align: center;
-   
 }
 
 .footer-legal {
@@ -209,7 +202,8 @@ fieldset {
 	font-size: 12px;
 	margin: auto;
 	text-align: center;
-	width: 80%;
+  padding-top: 20px;
+  width: 80%;
 }
 .footer-nav-ul{
     display: flex;
@@ -225,18 +219,18 @@ fieldset {
 
 .footer-nav {
     margin: auto;
-    width: 180px;
+    width: 200px;
 }
 
 .privacy-setting {
-  color: white;
-  font-size: 14px;
+  background-color: #6B6C72;
   border-radius: 3px;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
   padding: 10px 12px;
   position: fixed;
-  background-color: #6B6C72;
-  cursor: pointer;
   right: 40px;
-  bottom: 0;
   text-align: center;
 }
