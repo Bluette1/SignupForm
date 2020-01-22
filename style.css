@@ -39,8 +39,8 @@ body{
   }
   .signmein{
       background-color: #0077c5;
-      border-radius: 4px;
       border: 1px solid grey;
+      border-radius: 4px;
       color: white;
       cursor: pointer;
       margin-left: 1.5rem;
@@ -122,14 +122,14 @@ body{
   /* styling the form element */
   form {
     background: white;
-    border-bottom: none;
     border: 1px solid #c7c7c7;
+    border-bottom: none;
     display: flex;
     flex-direction: column;
     font-size: 14px;
     margin: auto;
-    padding: 30px;
     max-width: 60%;
+    padding: 30px;
   }
   .form-header {
 	font-size: 20px;
@@ -137,11 +137,11 @@ body{
 	text-align: center;
 }
 .form-sub-header {
+  color: grey;
+  margin: 2px;
 	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
-    color: grey;
-    margin: 2px;
 }
 .form-link{
     font-size: 13px;
@@ -155,8 +155,8 @@ fieldset {
   }
   .form-input {
     margin: 15px 0;
-    padding: 10px;
     max-width: 92%;
+    padding: 10px;
   }
   .form-label {
     color: #1e1d1d;
@@ -200,9 +200,9 @@ fieldset {
 .footer-legal {
 	color: #505050;
 	font-size: 12px;
-	margin: auto;
-	text-align: center;
+  margin: auto;
   padding-top: 20px;
+	text-align: center;
   width: 80%;
 }
 .footer-nav-ul{
