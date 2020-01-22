@@ -63,16 +63,16 @@
                 <a href="#" class="primary-link form-link">Learn more</a>
                 <fieldset>
                     <label for="email" class="form-label">Email address</label>
-                    <input type="email" name="email" class="form-input" placeholder="Enter your email" required>
+                    <input type="email" id="email" class="form-input"  required>
                 </fieldset>
                 <fieldset>
                     <label for="phone" class="form-label">Phone (recommended)</label>
-                    <input type="text" name="phone" class="form-input" placeholder="10 Digit Phone number">
+                    <input type="tel" id="phone" class="form-input" >
                     <p class="info">Standard call messages or data rates may apply.</p>
                 </fieldset>
                 <fieldset>
                     <label for="Password" class="form-label">Password</label>
-                    <input type="password" name="password" class="form-input" placeholder="No special Chanacter allowed"
+                    <input type="password" id="Password" class="form-input"
                         required>
                 </fieldset>
                 <button class="create-login signmein">
@@ -86,11 +86,12 @@
                 </p>
                 
             </form>
-            <section class="re-capture-policy">
+            <div class="re-capture-policy">
                 <p class="capture-policies">
                     Invisible reCAPTCHA by Google <a href="#" class="">Privacy Policy</a>
-                and <a href="#" class="">Terms of Use</a></section>
+                and <a href="#" class="">Terms of Use</a>
                 </p>
+            </div>
         </section>
     </main>
     <footer>
